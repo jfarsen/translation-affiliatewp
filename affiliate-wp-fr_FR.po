@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AffiliateWP\n"
 "Report-Msgid-Bugs-To: https://affiliatewp.com/support/\n"
-"POT-Creation-Date: 2017-02-17 03:04:25+00:00\n"
-"PO-Revision-Date: 2016-08-10 09:05+0200\n"
-"Last-Translator: FX Bénard <fx@fxbenard.com>\n"
+"POT-Creation-Date: 2017-04-24 10:49-0400\n"
+"PO-Revision-Date: 2017-04-24 14:42-0400\n"
+"Last-Translator: Propulsif <info@propulsif.com>\n"
 "Language-Team: AffiliateWP <support@affiliatewp.com>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 2.0.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: affiliate-wp.php:271 affiliate-wp.php:283
 msgid "Cheatin&#8217; huh?"
-msgstr "Une mauvaise manipulation ?"
+msgstr "Vous trichez ?"
 
 #: affiliate-wp.php:295
 msgid ""
@@ -30,13 +30,13 @@ msgid ""
 "AffiliateWP. Please contact your host and request that your version be "
 "upgraded to 5.3 or later."
 msgstr ""
-"Votre version de PHP est inférieure à la version minimale du PHP requise par "
-"AffiliateWP. Veuillez contacter votre hôte et demander lui de mettre à "
-"niveau en version 5.3 ou version ultérieure."
+"Votre version de PHP est inférieure à la version minimale de PHP requise par "
+"AffiliateWP. Veuillez contacter votre hébergeur web et lui demander de "
+"mettre à niveau à la version 5.3 ou plus."
 
 #: includes/REST/class-rest.php:62 includes/admin/tools/tools.php:523
 msgid "Nonce verification failed"
-msgstr ""
+msgstr "La vérification nonce a échoué"
 
 #: includes/REST/class-rest.php:62 includes/REST/class-rest.php:68
 #: includes/REST/class-rest.php:81 includes/REST/class-rest.php:84
@@ -65,24 +65,22 @@ msgid "Error"
 msgstr "Erreur"
 
 #: includes/REST/class-rest.php:68
-#, fuzzy
 msgid "User ID Required"
 msgstr "ID de l’utilisateur"
 
 #. translators: 1: Generate, regenerate, or revoke
 #: includes/REST/class-rest.php:81 includes/REST/class-rest.php:84
-#, fuzzy
 msgid "You do not have permission to %s API keys for this user."
-msgstr "Vous n’avez pas les permissions pour exporter les données."
+msgstr ""
+"Vous n’êtes pas autorisé à accéder aux clés API de %s pour cet utilisateur."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:61
 msgid "Whether to include a modified user object in the response."
-msgstr ""
+msgstr "Que ce soit pour inclure un objet utilisateur modifié dans la réponse."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:67
-#, fuzzy
 msgid "Whether to include the affiliate meta in the response."
-msgstr "Le nom d’utilisateur de l’affilié sur le site"
+msgstr "Que ce soit pour inclure les méta-données d'affilié dans la réponse."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:219
 #: includes/REST/v1/class-referrals-endpoints.php:181
@@ -107,67 +105,57 @@ msgid ""
 msgstr ""
 
 #: includes/REST/v1/class-affiliates-endpoints.php:256
-#, fuzzy
 msgid "Affiliates table column to order by."
-msgstr "Extension d’affiliation pour WordPress"
+msgstr ""
 
 #: includes/REST/v1/class-affiliates-endpoints.php:263
-#, fuzzy
 msgid "The date array or string to query affiliate registrations within."
-msgstr "Merci pour votre récente demande d’affiliation sur {site_name}."
+msgstr ""
 
 #: includes/REST/v1/class-affiliates-endpoints.php:274
 msgid "Use any get_affiliates() arguments to modify the response."
 msgstr ""
 
 #: includes/REST/v1/class-affiliates-endpoints.php:297
-#, fuzzy
 msgid "The unique affiliate ID."
-msgstr "L’ID de l’affiliation"
+msgstr "L’ID unique de l’affiliation."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:301
 msgid "ID for the user account associated with the affiliate."
-msgstr ""
+msgstr "ID pour le compte utilisateur associé à l'affilié."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:305
-#, fuzzy
 msgid "The affiliate rate."
-msgstr "Taux d’affiliation"
+msgstr "Taux d’affiliation."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:309
 msgid "The affiliate rate, as it exists in the database"
-msgstr ""
+msgstr "Le taux d'affiliation, tel qu'il existe dans la base de données"
 
 #: includes/REST/v1/class-affiliates-endpoints.php:313
-#, fuzzy
 msgid "The affiliate rate, as inherited from global settings."
-msgstr "URL de référence affilié"
+msgstr "Le taux d'affiliation, tel qu'hérité des paramètres globaux."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:319
-#, fuzzy
 msgid "The affiliate rate type"
-msgstr "Le type du taux de parrainage de l’affilié. "
+msgstr "Le type de taux de parrainage"
 
 #: includes/REST/v1/class-affiliates-endpoints.php:323
 msgid "The affiliate rate type, as it exists in the database"
 msgstr ""
+"Le type de taux d'affiliation, tel qu'il existe dans la base de données"
 
 #: includes/REST/v1/class-affiliates-endpoints.php:327
-#, fuzzy
 msgid "The affiliate rate type, as inherited from global settings."
-msgstr "URL de référence affilié"
+msgstr "Le taux d'affiliation, tel qu'hérité des paramètres globaux."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:333
-#, fuzzy
 msgid "The affiliate account email. Synced with the associated user account."
 msgstr ""
-"Commencez à taper le nom de l’affilié pour effectuer une recherche de leur "
-"compte utilisateur associé."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:338
-#, fuzzy
 msgid "The affiliate payment email address."
-msgstr "Votre compte d’affilition n’est pas actif"
+msgstr ""
 
 #: includes/REST/v1/class-affiliates-endpoints.php:342
 msgid "The affiliate payment email address, as it exists in the database"
@@ -180,33 +168,28 @@ msgid ""
 msgstr ""
 
 #: includes/REST/v1/class-affiliates-endpoints.php:352
-#, fuzzy
 msgid "The affiliate status."
-msgstr "État de l’affiliation"
+msgstr "État de l’affiliation."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:356
-#, fuzzy
 msgid "Unpaid affiliate earnings."
 msgstr "Réglages de l’affiliation"
 
 #: includes/REST/v1/class-affiliates-endpoints.php:360
-#, fuzzy
 msgid "Affiliate earnings."
-msgstr "Réglages de l’affiliation"
+msgstr "Gain de l’affiliation."
 
 #: includes/REST/v1/class-affiliates-endpoints.php:364
 msgid "The number of paid referrals associated with the affiliate."
 msgstr ""
 
 #: includes/REST/v1/class-affiliates-endpoints.php:368
-#, fuzzy
 msgid "The number of visits associated with the affiliate."
-msgstr "Le site web de l’affilié"
+msgstr ""
 
 #: includes/REST/v1/class-affiliates-endpoints.php:372
-#, fuzzy
 msgid "The date the affiliate was registered."
-msgstr "Les raisons du rejet de la demande d’affiliation"
+msgstr ""
 
 #: includes/REST/v1/class-creatives-endpoints.php:166
 msgid "The creative ID or array of IDs to query for."
@@ -225,42 +208,36 @@ msgid "Use any get_creatives() arguments to modify the response."
 msgstr ""
 
 #: includes/REST/v1/class-creatives-endpoints.php:215
-#, fuzzy
 msgid "The unique creative ID."
-msgstr "Texte pour cette bannière."
+msgstr "L'ID unique de la bannière."
 
 #: includes/REST/v1/class-creatives-endpoints.php:219
-#, fuzzy
 msgid "Name of the creative."
-msgstr "Texte pour cette bannière."
+msgstr "Nom de cette bannière."
 
 #: includes/REST/v1/class-creatives-endpoints.php:223
-#, fuzzy
 msgid "Description for the creative."
-msgstr "Texte pour cette bannière."
+msgstr "Description de cette bannière."
 
 #: includes/REST/v1/class-creatives-endpoints.php:227
 msgid "URL the creative points to."
-msgstr ""
+msgstr "URL vers lequel pointe cette bannière"
 
 #: includes/REST/v1/class-creatives-endpoints.php:231
-#, fuzzy
 msgid "Text for the creative."
-msgstr "Texte pour cette bannière."
+msgstr "Texte de cette bannière."
 
 #: includes/REST/v1/class-creatives-endpoints.php:235
 msgid "ID of the media library image associated with the creative"
-msgstr ""
+msgstr "ID de l'image de la bibliothèque multimédia associée à la bannière"
 
 #: includes/REST/v1/class-creatives-endpoints.php:239
-#, fuzzy
 msgid "The creative status."
-msgstr "(L’utilisateur actuel ne sera pas supprimé)"
+msgstr "Statut de la bannière."
 
 #: includes/REST/v1/class-creatives-endpoints.php:243
-#, fuzzy
 msgid "The date the creative was created."
-msgstr "La bannière a bien été ajoutée."
+msgstr "La date à laquelle la bannière a été créée."
 
 #: includes/REST/v1/class-payouts-endpoints.php:178
 msgid "The payout ID or array of IDs to query for."
@@ -376,9 +353,8 @@ msgid "Use any get_referrals() arguments to modify the response."
 msgstr ""
 
 #: includes/REST/v1/class-referrals-endpoints.php:270
-#, fuzzy
 msgid "The unique referral ID."
-msgstr "Le montant d’un parrainage donné"
+msgstr "L’ID unique de l’affiliation."
 
 #: includes/REST/v1/class-referrals-endpoints.php:274
 #, fuzzy
@@ -391,29 +367,24 @@ msgid "ID for the visit associated with the referral."
 msgstr "Sélectionnez l’état du parainnage."
 
 #: includes/REST/v1/class-referrals-endpoints.php:282
-#, fuzzy
 msgid "Referral description."
-msgstr "Description du parrainage"
+msgstr "Description du parrainage."
 
 #: includes/REST/v1/class-referrals-endpoints.php:286
-#, fuzzy
 msgid "The referral status."
-msgstr "Statuts de parrainage :"
+msgstr "Statut de parrainage."
 
 #: includes/REST/v1/class-referrals-endpoints.php:290
-#, fuzzy
 msgid "Referral amount."
-msgstr "Taux de parrainage"
+msgstr "Montant de parrainage."
 
 #: includes/REST/v1/class-referrals-endpoints.php:294
-#, fuzzy
 msgid "Currency for the referral amount."
-msgstr "Taux de parrainage"
+msgstr "Devise pour le paiement de parrainage."
 
 #: includes/REST/v1/class-referrals-endpoints.php:298
-#, fuzzy
 msgid "Custom referral data."
-msgstr "Aucun parrainage trouvé."
+msgstr ""
 
 #: includes/REST/v1/class-referrals-endpoints.php:302
 msgid ""
@@ -458,9 +429,10 @@ msgid "Fields to limit the selection for. Accepts 'ids'. Default '*' for all."
 msgstr ""
 
 #: includes/REST/v1/class-rest-controller.php:146
+#, fuzzy
 msgid ""
 "Scope under which the request is made; determines fields present in response."
-msgstr ""
+msgstr "Portée de la requête; détermine les champs présents dans la réponse."
 
 #: includes/REST/v1/class-visits-endpoints.php:175
 msgid "The visit ID or array of IDs to query visits for."
@@ -601,8 +573,9 @@ msgstr "L’année dernière"
 
 #. translators: 1: Starting date, 2: Ending date
 #: includes/abstracts/class-affwp-reports-tab.php:389
+#, fuzzy
 msgid "%1$s to %2$s"
-msgstr ""
+msgstr "%1$s sur %2$s"
 
 #: includes/admin/AFFWP_Plugin_Updater.php:201
 msgid ""
@@ -1014,7 +987,7 @@ msgstr ""
 #: includes/admin/affiliates/edit.php:139
 #, fuzzy
 msgid "Website"
-msgstr "Adresse du site internet"
+msgstr "Site web"
 
 #: includes/admin/affiliates/edit.php:145
 #, fuzzy
@@ -1754,8 +1727,9 @@ msgstr "Payé"
 
 #: includes/admin/payouts/class-list-table.php:131
 #: includes/admin/tools/tools.php:339 includes/payout-functions.php:134
+#, fuzzy
 msgid "Failed"
-msgstr ""
+msgstr "Échoué"
 
 #: includes/admin/payouts/class-list-table.php:148
 #: includes/admin/tools/export/class-batch-export-payouts.php:144
@@ -1779,50 +1753,46 @@ msgstr "Affilié"
 #: includes/admin/tools/export/class-batch-export-payouts.php:148
 #, fuzzy
 msgid "Generated By"
-msgstr "Générer l’URL"
+msgstr ""
+"Votre mot de passe a été automatiquement généré&nbsp;: <strong>%s</strong>"
 
 #: includes/admin/payouts/class-list-table.php:153
 #: includes/admin/payouts/view.php:103
 #: includes/admin/tools/export/class-batch-export-payouts.php:149
 #: templates/dashboard-tab-payouts.php:36
-#, fuzzy
 msgid "Payout Method"
-msgstr "Méthode de promotion"
+msgstr "Méthode de paiement"
 
 #: includes/admin/payouts/class-list-table.php:366
 #: includes/admin/payouts/view.php:107
 msgid "(none)"
-msgstr ""
+msgstr "(aucun)"
 
 #: includes/admin/payouts/class-list-table.php:422
-#, fuzzy
 msgid "View"
-msgstr "Voir %s"
+msgstr "Voir"
 
 #: includes/admin/payouts/class-list-table.php:432
 #: includes/admin/payouts/class-list-table.php:526
 msgid "Retry Payment"
-msgstr ""
+msgstr "Réessayez le paiement"
 
 #: includes/admin/payouts/class-list-table.php:513
-#, fuzzy
 msgid "No payouts found."
 msgstr "Aucune visite trouvée."
 
 #: includes/admin/payouts/payouts.php:39
 #: includes/admin/reports/class-reports-admin.php:58
-#, fuzzy
 msgid "Manage Referrals"
-msgstr "Parrainages non payés"
+msgstr "Gérer les parrainages"
 
 #: includes/admin/payouts/screen-options.php:32
-#, fuzzy
 msgid "Number of payouts per page:"
-msgstr "Nombre de visites par page :"
+msgstr "Nombre de parrainages par page :"
 
 #: includes/admin/payouts/view.php:16
 msgid "Payout: #%d"
-msgstr ""
+msgstr "Paiement: #% d"
 
 #: includes/admin/payouts/view.php:60
 #: includes/admin/referrals/class-list-table.php:168
@@ -1840,12 +1810,11 @@ msgstr "Quantité"
 
 #: includes/admin/payouts/view.php:132
 msgid "Payout Date"
-msgstr ""
+msgstr "Date de paiement"
 
 #: includes/admin/payouts/view.php:167
-#, fuzzy
 msgid "Referrals Paid"
-msgstr "Parrainages"
+msgstr "Parrainages payés"
 
 #: includes/admin/plugins.php:27
 msgid "General Settings"
@@ -1853,7 +1822,7 @@ msgstr "Réglages généraux"
 
 #: includes/admin/plugins.php:53
 msgid "Changelog"
-msgstr ""
+msgstr "Journal des changements"
 
 #: includes/admin/referrals/actions.php:16
 #: includes/admin/referrals/actions.php:47
@@ -2115,7 +2084,7 @@ msgstr ""
 #: includes/admin/settings/class-settings.php:580
 #, fuzzy
 msgid "None"
-msgstr "Non défini"
+msgstr "Aucun"
 
 #: includes/admin/referrals/edit.php:136
 msgid ""
@@ -2129,7 +2098,7 @@ msgstr "Le montant du parrainage, comme 15."
 #: includes/admin/referrals/edit.php:159
 #, fuzzy
 msgid "Visit"
-msgstr "Visites"
+msgstr "Visitez notre page de modules"
 
 #. translators: 1: Visit link, 2: Visit ID
 #: includes/admin/referrals/edit.php:174
@@ -2287,8 +2256,9 @@ msgstr "Exportation des affiliations"
 #: includes/admin/reports/tabs/class-affiliates-reports-tab.php:41
 #: includes/admin/reports/tabs/class-referrals-reports-tab.php:45
 #: includes/admin/reports/tabs/class-visits-reports-tab.php:41
+#, fuzzy
 msgid "All Time"
-msgstr ""
+msgstr "Tout le temps"
 
 #: includes/admin/reports/tabs/class-affiliates-reports-tab.php:71
 #: includes/admin/reports/tabs/class-affiliates-reports-tab.php:135
@@ -2336,8 +2306,9 @@ msgstr ""
 #: includes/admin/reports/tabs/class-campaigns-reports-tab.php:54
 #: includes/admin/reports/tabs/class-campaigns-reports-tab.php:100
 #: includes/admin/reports/tabs/class-campaigns-reports-tab.php:148
+#, fuzzy
 msgid "n/a"
-msgstr ""
+msgstr "n/d"
 
 #: includes/admin/reports/tabs/class-campaigns-reports-tab.php:55
 #: includes/admin/reports/tabs/class-campaigns-reports-tab.php:101
@@ -2561,7 +2532,7 @@ msgstr ""
 #: includes/admin/settings/class-settings.php:546
 #, fuzzy
 msgid "Currency Symbol Position"
-msgstr "Position du symbole monétaire"
+msgstr "Position du symbole de la devise"
 
 #: includes/admin/settings/class-settings.php:547
 #, fuzzy
@@ -3198,13 +3169,16 @@ msgstr[0] "L’affilié a bien été mis à jour."
 msgstr[1] "L’affilié a bien été mis à jour."
 
 #: includes/admin/tools/class-rest-consumers-table.php:42
+#, fuzzy
 msgid "API Key"
-msgstr ""
+msgstr "Clé API"
 
 #: includes/admin/tools/class-rest-consumers-table.php:43
 #: includes/admin/tools/tools.php:85
+#, fuzzy
 msgid "API Keys"
 msgstr ""
+"Passez la passerelle de paiement en mode test en utilisant les clés de test."
 
 #: includes/admin/tools/class-rest-consumers-table.php:61
 #, fuzzy
@@ -3216,12 +3190,14 @@ msgid "Reissue"
 msgstr ""
 
 #: includes/admin/tools/class-rest-consumers-table.php:162
+#, fuzzy
 msgid "Revoke"
-msgstr ""
+msgstr "Révoquer"
 
 #: includes/admin/tools/class-rest-consumers-table.php:201
+#, fuzzy
 msgid "Public Key"
-msgstr ""
+msgstr "Clé publique"
 
 #: includes/admin/tools/class-rest-consumers-table.php:202
 msgid "Token"
@@ -3230,7 +3206,7 @@ msgstr ""
 #: includes/admin/tools/class-rest-consumers-table.php:203
 #, fuzzy
 msgid "Secret Key"
-msgstr "Clé secrète reCAPTCHA"
+msgstr "Clé Test secrète"
 
 #: includes/admin/tools/class-rest-consumers-table.php:228
 #, fuzzy
@@ -4505,7 +4481,7 @@ msgstr "Campagne"
 #: includes/integrations/class-caldera-forms.php:74
 #, fuzzy
 msgid "Total"
-msgstr "Totaux"
+msgstr "Total"
 
 #: includes/integrations/class-caldera-forms.php:75
 msgid ""
@@ -5053,15 +5029,16 @@ msgstr "Shekel israélien"
 #: includes/misc-functions.php:48
 #, fuzzy
 msgid "Iranian Rial"
-msgstr "Toman iranien"
+msgstr "Rial iranien"
 
 #: includes/misc-functions.php:49
 msgid "Japanese Yen"
 msgstr "Yen japonais"
 
 #: includes/misc-functions.php:50
+#, fuzzy
 msgid "Kazakhstani Tenge"
-msgstr ""
+msgstr "Tenge kazakh"
 
 #: includes/misc-functions.php:51
 msgid "Lao Kip"
@@ -5094,7 +5071,7 @@ msgstr "Dollar néo-zélandais"
 #: includes/misc-functions.php:58
 #, fuzzy
 msgid "Pakistani Rupee"
-msgstr "Roupie indienne"
+msgstr "Roupie pakistanaise"
 
 #: includes/misc-functions.php:59
 msgid "Paraguayan Guaraní"
@@ -5196,7 +5173,7 @@ msgstr "Taux de parrainage"
 
 #: templates/dashboard-tab-payouts.php:82
 msgid "None of your referrals have been paid out yet."
-msgstr ""
+msgstr "Aucun de vos parrainages n'a été payé pour l'instant."
 
 #: templates/dashboard-tab-referrals.php:70
 msgid "You have not made any referrals yet."
@@ -5327,10 +5304,9 @@ msgstr "Graphiques"
 
 #: templates/dashboard.php:117
 msgid "Log out"
-msgstr ""
+msgstr "Se déconnecter"
 
 #: templates/login.php:15
-#, fuzzy
 msgid "Log into your account"
 msgstr "Connectez-vous à votre compte"
 
@@ -5344,12 +5320,11 @@ msgstr "Se souvenir de moi"
 
 #: templates/login.php:44
 msgid "Log In"
-msgstr ""
+msgstr "Se connecter"
 
 #: templates/login.php:48
-#, fuzzy
 msgid "Lost your password?"
-msgstr "Mot de passe oublié&nbsp;?"
+msgstr "Mot de passe perdu ?"
 
 #: templates/no-access.php:2
 msgid ""
@@ -5418,7 +5393,7 @@ msgstr "Bannière ID #%d : %s"
 #, fuzzy
 msgctxt "Affiliate column table header"
 msgid "Affiliate"
-msgstr "Affilié"
+msgstr "Produit externe/affiliation"
 
 #: includes/admin/overview/metaboxes/class-metabox-overview-most-valuable.php:75
 #, fuzzy
@@ -5454,7 +5429,7 @@ msgstr "Converti"
 #, fuzzy
 msgctxt "Amount column table header"
 msgid "Amount"
-msgstr "Quantité"
+msgstr "Montant du remboursement"
 
 #: includes/admin/overview/metaboxes/class-metabox-overview-recent-referrals.php:71
 #, fuzzy
@@ -5466,7 +5441,7 @@ msgstr "Description"
 #, fuzzy
 msgctxt "Status column table header"
 msgid "Status"
-msgstr "État"
+msgstr "Statut"
 
 #: includes/admin/overview/metaboxes/class-metabox-overview-registrations.php:69
 #, fuzzy
@@ -5532,31 +5507,27 @@ msgstr "Gains non payés aujourd’hui"
 #, fuzzy
 msgctxt "payouts"
 msgid "All"
-msgstr "Tout"
+msgstr "Tous"
 
 #: includes/admin/payouts/class-list-table.php:149
 #: includes/admin/tools/export/class-batch-export-payouts.php:147
-#, fuzzy
 msgctxt "payout"
 msgid "Amount"
-msgstr "Quantité"
+msgstr "Montant"
 
 #: includes/admin/payouts/class-list-table.php:154
 #: includes/admin/tools/export/class-batch-export-payouts.php:150
-#, fuzzy
 msgctxt "payout"
 msgid "Status"
-msgstr "État"
+msgstr "Statut"
 
 #: includes/admin/payouts/class-list-table.php:155
 #: includes/admin/tools/export/class-batch-export-payouts.php:151
-#, fuzzy
 msgctxt "payout"
 msgid "Date"
 msgstr "Date"
 
 #: includes/payout-functions.php:133 includes/payout-functions.php:137
-#, fuzzy
 msgctxt "payout"
 msgid "Paid"
 msgstr "Payé"
@@ -5565,53 +5536,46 @@ msgstr "Payé"
 #: includes/admin/payouts/view.php:78
 msgctxt "payout owner"
 msgid "(none)"
-msgstr ""
+msgstr "(aucun)"
 
 #: includes/admin/payouts/class-list-table.php:335
 #: includes/admin/payouts/view.php:86
-#, fuzzy
 msgctxt "payout owner ID"
 msgid "(User ID: %d)"
-msgstr "ID de l’utilisateur"
+msgstr "(ID de l'utilisateur: %d)"
 
 #. translators: 1: Visit date
 #: includes/admin/referrals/edit.php:184
 msgctxt "visit"
 msgid "Date: %1$s (%2$s)"
-msgstr ""
+msgstr "Date: %1$s (%2$s)"
 
 #: includes/admin/referrals/edit.php:193
-#, fuzzy
 msgctxt "visit"
 msgid "None"
-msgstr "Non défini"
+msgstr "Aucun"
 
 #: includes/admin/referrals/referrals.php:39
-#, fuzzy
 msgctxt "referrals"
 msgid "Reports"
 msgstr "Rapports"
 
 #: includes/admin/visits/class-list-table.php:234
-#, fuzzy
 msgctxt "visit context"
 msgid "None"
-msgstr "Non défini"
+msgstr "Aucun"
 
 #: includes/admin/visits/visits.php:42
-#, fuzzy
 msgctxt "visits"
 msgid "Reports"
 msgstr "Rapports"
 
 #: includes/class-graph.php:419
-#, fuzzy
 msgctxt "date filter"
 msgid "From"
-msgstr "Du"
+msgstr "De"
 
 #: includes/class-graph.php:421
-#, fuzzy
 msgctxt "date filter"
 msgid "To"
 msgstr "Au"
@@ -5619,65 +5583,62 @@ msgstr "Au"
 #: includes/cli/class-command.php:36
 msgctxt "license status"
 msgid "Valid"
-msgstr ""
+msgstr "Valide"
 
 #: includes/cli/class-command.php:38
-#, fuzzy
 msgctxt "license status"
 msgid "Invalid"
-msgstr "Adresse de messagerie incorrecte"
+msgstr "Invalide"
 
 #: includes/cli/class-command.php:45
 msgctxt "debug_mode"
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: includes/cli/class-command.php:47
 msgctxt "debug mode"
 msgid "Disabled"
-msgstr ""
+msgstr "Désactivé"
 
 #: includes/cli/class-command.php:54
 msgctxt "affiliates require approval"
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: includes/cli/class-command.php:56
 msgctxt "affiliates require approval"
 msgid "Disabled"
-msgstr ""
+msgstr "Désactivé"
 
 #: includes/cli/class-command.php:67
 msgctxt "emails disabled"
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: includes/cli/class-command.php:69
 msgctxt "emails disabled"
 msgid "Disabled"
-msgstr ""
+msgstr "Désactivé"
 
 #: includes/cli/class-command.php:80
-#, fuzzy
 msgctxt "integrations"
 msgid "None"
-msgstr "Non défini"
+msgstr "Aucun"
 
 #: includes/cli/class-command.php:109
 msgctxt "show pretty referral URLs"
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: includes/cli/class-command.php:111
 msgctxt "show pretty referral URLs"
 msgid "Disabled"
-msgstr ""
+msgstr "Désactivé"
 
 #: includes/cli/class-visit-sub-commands.php:437
-#, fuzzy
 msgctxt "direct traffic"
 msgid "Direct"
-msgstr "Traffic direct"
+msgstr "Direct"
 
 #, fuzzy
 #~ msgctxt "payout"
